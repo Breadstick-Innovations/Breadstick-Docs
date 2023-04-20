@@ -1,0 +1,83 @@
+leave header attachments empty
+Add the Logo without text to the Profile photo in the contact area
+Name: Breadstick Innovations
+Bus address: Edmonton, Alberta
+Desc: ???
+
+Actions
+Phone:7806520750
+email:info@breadstick.ca
+web:https://breadstick.ca/
+
+Secondary actions
+discord: https://discord.gg/PMVeWrNY
+Facebook: breadstickinnovations
+Github: mrangen
+Instagram: breadstickinnovations
+paypal: breadstickinnovation
+Twitter: breadstick_kits
+Youtube: breadstickinnovations3437
+
+Featured Content
+Product:
+	Pic: slice 1 picture
+	Title: Pico Slice Series
+	desc: The perfect soldering kits to get started with exploring electronics and programming microcontrollers!
+	Price: $39.95 - $45.95
+	btn link: https://shop.breadstick.ca/collections/pico-bread-slices
+	btn text: Info
+embed:
+	<iframe width="1280" height="720" src="https://www.youtube.com/embed/V-sHN9kBXNQ" title="Slice1 - Pot Controlled PWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Text:
+
+Just starting to solder? 
+
+
+Product:
+	Pic: solder bundle pic
+	Title: Soldering Essentials Kit
+	desc: Get everything you need for soldering in one convenient bundle with our Soldering Essentials Kit.
+	Price: $249.95
+	btn link: https://shop.breadstick.ca/products/soldering-essentials-kit
+	btn text: Info
+
+Footer credit: disable
+Theme: A
+Colours:
+	#619b8a
+	#F8F8F8
+	#fcca46
+	#a1c181
+
+font:
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+CSS:
+font-family: 'Poppins', sans-serif;
+
+Analytics
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3LJP5ZZVF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q3LJP5ZZVF');
+</script>
+
+URL:
+https://breadstick-docs.pages.dev/
+
+
+
+
+
+
+
+
+
+
+
