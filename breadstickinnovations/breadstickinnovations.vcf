@@ -6,11 +6,11 @@ ORG:
 ADR;TYPE=WORK:Edmonton, Alberta
 TITLE:
 TEL;TYPE=CELL:
-TEL;TYPE=WORK:7806520750
+TEL;TYPE=WORK:
 TEL;TYPE=HOME:
 TEL;TYPE=MSG:
 EMAIL;TYPE=WORK:info@breadstick.ca
-URL;TYPE=Digital Business Card:https://breadstick-docs.pages.dev/
+URL;TYPE=Digital Business Card:https://breadstick-docs.pages.dev/breadstickinnovations/
 URL:https://breadstick.ca/
 URL;TYPE=Website:https://breadstick.ca/
 URL;TYPE=Twitter:https://twitter.com/breadstick_kits
@@ -18,9 +18,9 @@ URL;TYPE=Facebook:https://facebook.com/breadstickinnovations
 URL;TYPE=Instagram:https://instagram.com/breadstickinnovations
 URL;TYPE=Discord:https://discord.gg/PMVeWrNY
 URL;TYPE=GitHub:https://github.com/mrangen
-URL;TYPE=YouTube:https://youtube.com/breadstickinnovations3437
+URL;TYPE=YouTube:https://youtube.com/@breadstickinnovations3437
 URL;TYPE=PayPal:https://paypal.me/breadstickinnovation
 KEY;TYPE=PGP;ENCODING=b:
-NOTE:some description of the business
-UID:EnBizCard-100695008
+NOTE:
+UID:EnBizCard-100696203
 END:VCARD
