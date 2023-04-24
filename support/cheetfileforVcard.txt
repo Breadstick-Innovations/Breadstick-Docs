@@ -2,21 +2,22 @@ leave header attachments empty
 Add the Logo without text to the Profile photo in the contact area
 Name: Breadstick Innovations
 Bus address: Edmonton, Alberta
-Desc: ???
+Desc: 
 
 Actions
-Phone:7806520750
-email:info@breadstick.ca
 web:https://breadstick.ca/
+email:info@breadstick.ca
+Phone:7806520750
 
 Secondary actions
-discord: https://discord.gg/PMVeWrNY
-Facebook: breadstickinnovations
-Github: mrangen
-Instagram: breadstickinnovations
-paypal: breadstickinnovation
 Twitter: breadstick_kits
-Youtube: breadstickinnovations3437
+Facebook: breadstickinnovations
+Instagram: breadstickinnovations
+discord: https://discord.gg/PMVeWrNY
+Github: mrangen
+Youtube: @breadstickinnovations3437
+paypal: breadstickinnovation
+
 
 Featured Content
 Product:
@@ -31,6 +32,7 @@ embed:
 Text:
 
 Just starting to solder? 
+Look no further...
 
 
 Product:
@@ -40,6 +42,11 @@ Product:
 	Price: $249.95
 	btn link: https://shop.breadstick.ca/products/soldering-essentials-kit
 	btn text: Info
+
+new Section
+Title: Learn. Build. Code.
+Text: Your maker journey starts here.
+
 
 Footer credit: disable
 Theme: A
@@ -69,7 +76,7 @@ Analytics
 </script>
 
 URL:
-https://breadstick-docs.pages.dev/
+https://breadstick-docs.pages.dev/breadstickinnovations/
 
 
 
