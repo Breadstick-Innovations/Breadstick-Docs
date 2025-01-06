@@ -8,10 +8,10 @@
       {
         "chipFamily": "ESP32",
         "parts": [
-          { "path": "nougatquad/bootloader_qio_80m.bin", "offset": 0 },
-          { "path": "nougatquad/partitions.bin", "offset": 32768 },
-          { "path": "nougatquad/boot_app0.bin", "offset": 57344 },
-          { "path": "nougatquad/firmware.bin", "offset": 65536 }
+          { "path": "webflash/nougatquad/bootloader_qio_80m.bin", "offset": 0 },
+          { "path": "webflash/nougatquad/partitions.bin", "offset": 32768 },
+          { "path": "webflash/nougatquad/boot_app0.bin", "offset": 57344 },
+          { "path": "webflash/nougatquad/firmware.bin", "offset": 65536 }
         ]
       },
       {
