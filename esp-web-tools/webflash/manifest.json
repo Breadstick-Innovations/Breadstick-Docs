@@ -1,6 +1,6 @@
 {
     "name": "Nougat Firmware",
-    "version": "2021.10.3",
+    "version": "2025.1.6",
     "home_assistant_domain": "esphome",
     "funding_url": "https://esphome.io/guides/supporters.html",
     "new_install_prompt_erase": true,
@@ -8,7 +8,7 @@
       {
         "chipFamily": "ESP32",
         "parts": [
-          { "path": "nougatquad/bootloader_qio_80m.bin", "offset": 4096 },
+          { "path": "nougatquad/bootloader_qio_80m.bin", "offset": 0 },
           { "path": "nougatquad/partitions.bin", "offset": 32768 },
           { "path": "nougatquad/boot_app0.bin", "offset": 57344 },
           { "path": "nougatquad/firmware.bin", "offset": 65536 }
