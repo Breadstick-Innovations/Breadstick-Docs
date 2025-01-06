@@ -9,6 +9,13 @@
         "chipFamily": "ESP32",
         "parts": [
           { "path": "nougatquad/esp32_bootloader_v4.bin", "offset": 0 },
+          { "path": "nougatquad/firmware.bin", "offset": 65536 }
+        ]
+      },
+      {
+        "chipFamily": "ESP32-works",
+        "parts": [
+          { "path": "nougatquad/esp32_bootloader_v4.bin", "offset": 0 },
           { "path": "nougatquad/WLED_0.15.0_ESP32.bin", "offset": 65536 }
         ]
       },
