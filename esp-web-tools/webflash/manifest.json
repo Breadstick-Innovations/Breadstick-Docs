@@ -15,7 +15,7 @@
       {
         "chipFamily": "ESP32-C3",
         "parts": [
-          { "path": "nougatc3/firmware.bin", "offset": 0 }
+          { "path": "nougatc3/WLED0.15.0customNougatC3.bin", "offset": 0 }
         ]
       }
     ]

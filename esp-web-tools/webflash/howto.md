@@ -1,3 +1,11 @@
+
+info:
+https://esphome.github.io/esp-web-tools/
+https://github.com/esphome/esp-web-tools?tab=readme-ov-file
+
+
+
+
 upload the firmware from the repo with the -v flag
 `pio run -v -t upload`
 
