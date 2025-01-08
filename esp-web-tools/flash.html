@@ -1,30 +1,52 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadstick Innovations - ESP Web Tools</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <h1>Breadsticks Innovations - ESP Web Tools</h1>
-    <h4>Use the button below to install updated firmware on the Nougat C3 or Nougat Quad ONLY</h4>
+    <h1>Breadstick Innovations - ESP Web Tools</h1>
+    <p>Use the button below to install updated firmware on the Nougat C3 or Nougat Quad ONLY</p>
 
+    <ol class="steps-list">
+        <li>Ensure your device (Nougat C3 or Nougat Quad) is connected to your computer via USB.</li>
+        <li>Close any applications using the device's COM port (e.g., Serial Monitor or other debugging tools).</li>
+        <li>Click the "Connect" button below to begin the flashing process.</li>
+        <li>Follow the on-screen prompts to select your device and complete the installation.</li>
+        <li>Once the process is finished, disconnect and reconnect your device to ensure the new firmware is applied successfully.</li>
+    </ol>
+</br>
+
+
+    <!-- Main Content for Supported Browsers -->
     <div id="main" style="display: none;">
-
-        <br>
         <script
             type="module"
-            src="https://unpkg.com/esp-web-tools@7.3.1/dist/web/install-button.js?module">
+            src="https://unpkg.com/esp-web-tools@latest/dist/web/install-button.js?module">
         </script>
-        <esp-web-install-button id="installButton" manifest="webflash/manifest.json">Install WLED</esp-web-install-button>
-        <br>
-        <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
+        <esp-web-install-button id="installButton" manifest="webflash/manifest.json">
+            
+        </esp-web-install-button>
+        <p class="note">NOTE: Make sure to close anything using your device's COM port (e.g., Serial Monitor).</p>
     </div>
-    <div id="notSupported" style="display: none;">
-        Your browser does not support the Web Serial API. Try Chrome
+
+    <!-- Fallback for Unsupported Browsers -->
+    <div id="notSupported" class="not-supported" style="display: none;">
+        Your browser does not support the Web Serial API. Please use a compatible browser like 
+        <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> or 
+        <a href="https://www.microsoft.com/edge" target="_blank">Microsoft Edge</a>.
     </div>
     
-    <p>Page Ver. 25</p>
+    <footer>
+        <p>Page Ver. 26</p>
+    </footer>
 
     <script>
-        if(navigator.serial){
+        // Check Web Serial API support and toggle visibility
+        if (navigator.serial) {
             document.getElementById("notSupported").style.display = 'none';
             document.getElementById("main").style.display = 'block';
         } else {
@@ -32,7 +54,5 @@
             document.getElementById("main").style.display = 'none';
         }
     </script>
-
 </body>
-
 </html>
